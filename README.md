@@ -18,7 +18,7 @@ This project includes a `src/components` folder containing several React compone
 
 ### Task 1: Project Set Up
 
-- [x] Create a forked copy of this project.
+<!-- - [x] Create a forked copy of this project.
 - [x] Add your team lead as collaborator on Github.
 - [x] Clone your OWN fork of the repository using your terminal.
 - [x] CD into the project base directory.
@@ -26,7 +26,7 @@ This project includes a `src/components` folder containing several React compone
 - [x] Start up the app using `npm start`.
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [x] Push commits: `git push origin <firstName-lastName>`.
+- [x] Push commits: `git push origin <firstName-lastName>`. -->
 
 ### Task 2a: Minimum Viable Product
 
