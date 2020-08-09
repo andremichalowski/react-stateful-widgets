@@ -41,6 +41,8 @@ This project includes a `src/components` folder containing several React compone
 - [O] Squares
 - [O] Programmers
 
+//QUESTIONS FOR HELP CHANNEL/ZOE/\*: HOW TO INITIALIZE STATE WITH AN EXISTING OBJECT WITH SETSTATE...?
+
 #### Steps
 
 - [x] You will add functionality to all components inside inside `src/components`.
