@@ -37,7 +37,7 @@ This project includes a `src/components` folder containing several React compone
 - [x] Counter
 - [x] Moods
 - [x] Spinner
-- [] Input
+- [x] Input
 - [] Squares
 - [] Programmers
 
