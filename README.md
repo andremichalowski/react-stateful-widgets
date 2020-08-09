@@ -35,7 +35,7 @@ This project includes a `src/components` folder containing several React compone
 3. Updated state is correctly reflected in the DOM for each component.
 
 - [x] Counter
-- [] Moods
+- [x] Moods
 - [] Spinner
 - [] Input
 - [] Squares
