@@ -34,7 +34,7 @@ This project includes a `src/components` folder containing several React compone
 2. Each component's event handlers allow the user of the app to update state.
 3. Updated state is correctly reflected in the DOM for each component.
 
-- [] Counter
+- [x] Counter
 - [] Moods
 - [] Spinner
 - [] Input
