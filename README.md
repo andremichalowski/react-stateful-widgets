@@ -39,7 +39,7 @@ This project includes a `src/components` folder containing several React compone
 - [x] Spinner
 - [x] Input
 - [x] Squares
-- [O] Programmers
+- [x] Programmers
 
 //QUESTIONS FOR HELP CHANNEL/ZOE/\*: HOW TO INITIALIZE STATE WITH AN EXISTING OBJECT WITH SETSTATE...?
 

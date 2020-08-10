@@ -25,10 +25,28 @@ const listOfAwesome = [
 ];
 
 export default function Programmers() {
+  const [programmers, setProgrammers] = useState(listOfAwesome);
+  const [featDevId, setFeatDevId] = useState(null);
   // We'll have to use the state hook twice, as we need two slices of state.
   // The programmers on the one hand, and the id of the featured programmer on the other.
 
   const getNameOfFeatured = () => {
+    // console.log(programmers);
+    // console.log(featDevId);
+    // // console.log(programmers.find(5).name);
+    // console.log(programmers[featDevId-1].name);
+
+    return programmers[featDevId - 1].name;
+
+    // let finder = () => {
+    //   return featDevId;
+    // }
+    // return programmers.find(finder).name;
+    // return programmers[{featDevId}-1].name;
+    // console.log(programmers[1]);
+    // return programmers[1];
+    // return programmers[id].name;
+
     // This is not an event handler but a helper function. See its usage below.
     // It's going to need information from both slices of state!
     // Using the currently celebrated id, find inside the programmers slice of state
@@ -49,12 +67,12 @@ export default function Programmers() {
           /* Nasty bug! We should map over a slice of state, instead of 'listOfAwesome'.
           We might say: "it works, though!" But if the list of programmers is not state,
           we could never add or edit programmers in the future. The list would be a static thing. ;)" */
-          listOfAwesome.map((dev) => (
+          programmers.map((dev) => (
             <div key={dev.id}>
               {dev.name}{" "}
               <button
                 onClick={() => {
-                  /* set the featured id passing dev.id */
+                  setFeatDevId(dev.id);
                 }}
               >
                 Feature
@@ -66,7 +84,7 @@ export default function Programmers() {
       {
         // Ternaries are fantastic to render "one thing or the other" depending on the "truthiness" of something.
         // Pseudo-code: if the currently featured id is truthy render div 1, otherwise render div 2. Fix!
-        false ? (
+        featDevId ? (
           <div style={style}>
             🎉 Let&apos;s celebrate {getNameOfFeatured()}! 🥳
           </div>
