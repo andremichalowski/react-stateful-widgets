@@ -38,7 +38,7 @@ This project includes a `src/components` folder containing several React compone
 - [x] Moods
 - [x] Spinner
 - [x] Input
-- [O] Squares
+- [x] Squares
 - [O] Programmers
 
 //QUESTIONS FOR HELP CHANNEL/ZOE/\*: HOW TO INITIALIZE STATE WITH AN EXISTING OBJECT WITH SETSTATE...?
